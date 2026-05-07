@@ -116,16 +116,6 @@ Strategie:
 
 ---
 
-## Demo script (pour presenter le projet)
-
-Tu peux presenter en 30 secondes comme ca:
-
-> "Je selectionne un ticket dans l'UI.  
-> L'IA extrait montant, date, marchand et devise.  
-> Ensuite le moteur scanne tous les releves CSV et retourne les transactions candidates avec un niveau de confiance."
-
----
-
 ## Bonnes pratiques Git
 
 Le projet ignore deja:
@@ -133,8 +123,6 @@ Le projet ignore deja:
 - `.venv/`
 - cache Python
 - `dataset/*`
-
-Donc tu peux versionner le code sans exposer ni secret ni gros fichiers dataset.
 
 ---
 
@@ -144,7 +132,3 @@ Donc tu peux versionner le code sans exposer ni secret ni gros fichiers dataset.
 - Score global de confiance (montant + devise + date + vendor)
 - Export automatique en JSON/CSV des resultats
 - Mode batch sur un dossier complet de tickets
-
----
-
-Si tu veux, je peux aussi te faire une version README "portfolio" (avec badges, GIF demo, KPI et captures) prete pour recruteurs.
