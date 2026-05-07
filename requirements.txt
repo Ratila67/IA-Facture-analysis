@@ -1,0 +1,8 @@
+pytesseract
+pillow
+opencv-python
+requests
+dotenv
+mistralai
+groq
+streamlit
